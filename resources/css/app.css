@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-sidebar-link {
+    @apply cursor-pointer transition duration-200 ease-in-out w-full py-2 px-3 bg-none rounded-lg hover:bg-gray-200 hover:text-black text-white font-semibold;
+}
+
+.btn {
+    @apply transition duration-200 ease-in-out focus:outline-none;
+}
+
+.btn-white-reverse {
+    @apply bg-transparent border active:bg-gray-400 hover:bg-white hover:text-gray-600 font-semibold border-white rounded-lg py-2 px-7 text-sm text-white;
+}
+
+.btn-gray {
+    @apply bg-gray-500 border active:bg-gray-400 hover:bg-white hover:text-gray-600 font-semibold border-gray-500 rounded-lg py-2 px-7 text-sm text-white;
+}
+
+.btn-primary {
+    @apply bg-blue-800 border
+    active:bg-blue-800
+    hover:bg-white
+    hover:text-blue-800
+    font-semibold
+    border-blue-800
+    rounded-lg
+    py-2
+    px-7
+    text-white;
+}
+
+.btn-primary-reverse {
+    @apply bg-white border
+    active:bg-blue-800
+    hover:bg-blue-800
+    hover:text-white
+    font-semibold
+    border-blue-800
+    py-2
+    px-7
+    text-blue-800;
+}
+
+.btn-green {
+    @apply bg-green-500 border
+    active:bg-green-400
+    hover:bg-white
+    hover:text-green-500
+    border-green-500
+    text-white
+    font-semibold
+    rounded-lg py-2 px-7 text-sm;
+}
+
+.btn-blue {
+    @apply bg-blue-500 border
+    active:bg-blue-400
+    hover:bg-white
+    hover:text-blue-500
+    border-blue-500
+    text-white
+    font-semibold
+    rounded-lg py-2 px-7 text-sm;
+}
+
+.btn-red {
+    @apply bg-red-800 border
+    active:bg-red-800
+    hover:bg-white
+    hover:text-red-800
+    border-red-800
+    text-white
+    font-semibold
+    rounded-lg py-2 px-7 text-sm;
+}
+
+.btn-gray {
+    @apply bg-gray-500 border
+    active:bg-gray-400
+    hover:bg-white
+    hover:text-gray-500
+    border-gray-500
+    text-white
+    font-semibold
+    rounded-lg py-2 px-7 text-sm;
+}
+
+.btn-black {
+    @apply bg-black border
+    active:bg-black
+    hover:bg-white
+    hover:text-black
+    border-black
+    text-white
+    font-semibold
+    rounded-lg py-2 px-7 text-sm;
+}
+
+.link-primary {
+    @apply transition duration-200 ease-in-out
+    hover:text-blue-800;
+}
+
+.text-primary {
+    @apply text-blue-800;
+}
+
+
+.dropdown-nav:hover .dropdown-nav-menu {
+    display: block;
+}
+
+.container-pad {
+    @apply px-3 md:px-10 lg:px-32;
+}
+
+.container-pad-l {
+    @apply pl-3 md:pl-32;
+}
+
+.container-pad-r {
+    @apply pr-3 md:pr-32;
+}
