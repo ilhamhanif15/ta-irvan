@@ -18,42 +18,22 @@
 
     <div class="font-bold mb-4 text-2xl">VISI SMAN 1 Tambang</div>
     <p class="mb-16">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
-        <br/>
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
+        “Menjadikan SMA Negeri 1 Tambang sebagai sekolah berprestasi,
+        terampil, berakhlakul karimah dan berwawasan lingkungan.”
     </p>
     
     <div class="font-bold mb-4 text-2xl">MISI SMAN 1 Tambang</div>
-    <p class="mb-16">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
-        <br/>
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
+    <p class="mb-5">
+       <ol class="list-decimal list-inside pl-5 space-y-2">
+           <li>Meningkatkan kualitas PBM</li>
+           <li>Menumbuhkan semangat berwawasan keunggulan</li>
+           <li>Mengambangkan kreasi dan daya nalar siswa</li>
+           <li>Meningkatkan kemampuan profesionalisme pendidik dan tenaga
+            kependidikan</li>
+            <li>Menumbuhkan semangat kewirausahaan</li>
+            <li>Meningkatkan kegiatan ekstrakurikuler</li>
+            <li> Menumbuhkembangkan sikap cinta lingkungan</li>
+       </ol>
     </p>
 
 </section>

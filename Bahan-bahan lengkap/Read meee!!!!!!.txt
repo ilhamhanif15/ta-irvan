@@ -1,0 +1,29 @@
+1. Buat halaman pencarian
+Waktu pencarian dicari bakal munculin kayak halaman "Berita"
+Judulnya "Hasil Pencarian"
+Untuk halaman kalau kata kunci ga ketemu kalimatnya:
+"Kata kunci yang anda cari tidak dapat ditemukan” 
+
+2. Teksnya pake Verdana ya nif
+
+3. Nif nanti tiap halaman website bisa meneh full screen capture kyk punya si ghifar untuk mockup (contohnya aing masukin)
+
+4. Profil sekolah desainnya aing ubah nif, contoh nya ada aing masukin, nanti maneh coba pilih desain yang sesuai maneh aja
+nanti biar aing sesuaiin wireframe sama konteks skenarionya, terus kalau bisa coba masukin google map nif untuk
+lokasi sekolahnya kalau ga susah, di situ juga ada info tentang sarana dan prasarana sekolahnya, nah itu
+ga usah dimasukin di halaman profil, tapi masukin di halaman Sarana dan Prasarana aja ya
+
+5. Untuk berita, kegiatan, sama pengumuman aing masuk2in beberapa kegiatan dari sekolah lain, 
+kalau ntar nama sekolahnya beda nanti diubah aja nif namanya jadi sman 1 tambang, soalnya aing udh cari2
+di internet susah nemu, staf gurunya udah ngijinin juga wkwkwk
+
+6. Untuk berita, kegiatan, sama pengumuman halaman "detail" nya buat satu buah aja untuk masing-masing ya nif
+
+7. Untuk struktur organisasi sama foto2 guru aing kirim nanti nif, soalnya aing udah minta dari dulu tapi
+masih belum dikirim2
+
+8. Untuk contoh dokumen e-learningnya udah aing masukin juga
+
+9. Untuk E-Book, contoh beberapa dokumennya ambil di link itu nif
+
+Nuhun nif..

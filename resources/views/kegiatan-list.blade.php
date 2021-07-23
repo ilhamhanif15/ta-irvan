@@ -21,12 +21,7 @@
             <div class="mx-5">
                 <div class="font-bold text-lg mb-3">Kegiatan Sosialisasi</div>
                 <div class="text-sm">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
+                    Di era pendidikan abad 21, generasi muda diharapkan memiliki kemampuan akademis dan juga keterampilan dan talenta non akademis. Maka, kegiatan ekstrakurikuler adalah salah satu sarana bagi siswa untuk membantu perkembangan para siswa sesuai dengan kebutuhan, potensi, bakat dan minat siswa.
                 </div>
                 <div class="mt-2">
                     <a href="{{ route('kegiatan.detail') }}" class="link-primary text-gray-500">Baca Selengkapnya...</a>
@@ -42,12 +37,7 @@
             <div class="mx-5">
                 <div class="font-bold text-lg mb-3">Kegiatan Sosialisasi</div>
                 <div class="text-sm">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
+                    Dalam rangka meningkatkan kesadaran dan kepatuhan masyarakat dalam berlalulintas, Satuan Lalulintas Polres melakukan sosialisasi tentang etika tertib berlalulintas di SMA Negeri I Tambang, pada Rabu pagi (17/03/2021) sekira pukul 09.00 wib.
                 </div>
                 <div class="mt-2">
                     <a href="{{ route('kegiatan.detail') }}" class="link-primary text-gray-500">Baca Selengkapnya...</a>
@@ -63,12 +53,7 @@
             <div class="mx-5">
                 <div class="font-bold text-lg mb-3">Kegiatan Sosialisasi</div>
                 <div class="text-sm">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
+                    Sebanyak 150 siswa kelas X mengikuti kegiatan outbond di taman agrowisata Sungai Pinang Nadin Kabupaten Kampar (Minggu/4 Agustus 2019). Menurut Waka. Kesiswaan SMAN 1 Tambang
                 </div>
                 <div class="mt-2">
                     <a href="{{ route('kegiatan.detail') }}" class="link-primary text-gray-500">Baca Selengkapnya...</a>

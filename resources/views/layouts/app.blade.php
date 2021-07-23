@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="{{ asset('datatable/datatables.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('fontawesome/fontawesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
         @stack('head')
     </head>
@@ -28,5 +29,6 @@
         <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
         <script src="{{ asset('datatable/datatables.min.js') }}"></script>
         <script src="{{ asset('js/app.js') }}"></script>
+        @stack('after_script')
     </body>
 </html>

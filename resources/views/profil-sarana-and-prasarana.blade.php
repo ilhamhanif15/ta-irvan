@@ -18,22 +18,56 @@
 
     <div class="font-bold mb-7 text-xl">SARANA & PRASARANA SMAN 1 TAMBANG</div>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus.
-        <br/>
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus.
+        <table class="table-auto m-5">
+            <thead>
+              <tr>
+                <th class="bg-blue-500">Nama</th>
+                <th class="bg-blue-500">Total</th>
+           
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ruang Kelas</td>
+                <td>24 Ruang</td>
+              
+              </tr>
+              <tr>
+                <td>Laboratorium Biologi</td>
+                <td>1 Ruang</td>
+                
+              </tr>
+              <tr>
+                <td>Laboratorium Kimia</td>
+                <td>1 Ruang</td>
+              </tr>
+              <tr>
+                <td>Perpustakaan</td>
+                <td>1 Ruang</td>
+                
+              </tr>
+              <tr>
+                <td>Laboratorium Fisika</td>
+                <td>1 Ruang</td>
+                
+              </tr>
+              <tr>
+                <td>Laboratorium Komputer</td>
+                <td>1 Ruang</td>
+                
+              </tr>
+              <tr>
+                <td>Sanitasi Siswa</td>
+                <td>2 Ruang</td>
+                
+              </tr>
+              <tr>
+                <td>Sanitasi Guru</td>
+                <td>2 Ruang</td>
+                
+              </tr>
+            </tbody>
+          </table>
     </p>
 
     <div class="grid grid-cols-3 gap-10 mt-24 px-24">
