@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors : {
         blueGray : colors.blueGray
+      },
+      fontFamily: {
+        'verdana' : ['Verdana'],
       }
     },
   },

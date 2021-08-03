@@ -46,18 +46,45 @@ ul, #treeView {
 @section("content")
 
 @php
-    $data = [
-        "1. Pendidikan Agama (Islam) dan Budi Pekerti" => [
-            "1.1. Semester I" => [],
-            "1.2. Semester II" => [
-                "SUMBER-SUMBER HUKUM ISLAM" => "#"
+    if (env('MOCKUP_MODE', false)) {
+        $data = [
+            "1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quo." => [
+                "1.1. Semester 1" => [],
+                "1.2. Semester 2" => []
+            ],
+            "2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quo." => [
+                "1.1. Semester 1" => [],
+                "1.2. Semester 2" => []
+            ],
+            "3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quo." => [
+                "1.1. Semester 1" => [],
+                "1.2. Semester 2" => []
+            ],
+            "4. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quo." => [
+                "1.1. Semester 1" => [],
+                "1.2. Semester 2" => []
+            ],
+        ];
+    } else {
+        $data = [
+            "1. Pendidikan Agama (Islam) dan Budi Pekerti" => [
+                "1.1. Semester I" => [],
+                "1.2. Semester II" => [
+                    "SUMBER-SUMBER HUKUM ISLAM" => "storage/e-learning/1.2. Semester II -%20 SUMBER-SUMBER HUKUM ISLAM.pdf"
+                ],
+                "1.3. Semester III" => [],
+                "1.4. Semester IV" => [],
+                "1.5. Semester V" => [],
+                "1.6. Semester VI" => [
+                    "Pernikahan dalam Islam" => "storage/e-learning/1.6. Semester VI - Pernikahan dalam Islam.pptx"
+                ],
+            ],
+            "2. Pendidikan Agama (Kristen) dan Budi Pekerti" => [
+                " 2.1. Semester I" => [],
+                " 2.2. Semester II" => [],
             ]
-        ],
-        "2. Pendidikan Agama (Kristen) dan Budi Pekerti" => [
-            " 2.1. Semester I" => [],
-            " 2.2. Semester II" => [],
-        ]
-    ];
+        ];
+    }
 @endphp
 
 <section class="container-pad py-12">

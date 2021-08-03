@@ -16,48 +16,31 @@
         <i class="fa fa-angle-right"></i>
     </div>
     <div>
-        Detail
+        {{ $pengumuman['title'] }}
     </div>
 </div>
 
 <section class="container-pad py-12">
 
     <div class="font-bold mb-3">PENGUMUMAN</div>
-    <div class="font-bold text-3xl mb-3 text-center mt-12">Pengumuman Hasil Ujian</div>
+    <div class="font-bold text-3xl mb-3 text-center mt-12">{{ $pengumuman['title'] }}</div>
 
-    <p class="my-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
-        <br/>
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
-        <br/>
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem pariatur officia, doloribus et voluptate accusantium ad delectus, laboriosam debitis perspiciatis,
-        obcaecati fuga corrupti? Consequatur a ad eaque? Beatae error temporibus itaque commodi ab magnam illum,
-        ullam soluta pariatur voluptatibus cumque amet minima aut non quae laboriosam molestias reprehenderit
-        repellat libero aliquid rem enim necessitatibus deleniti. Libero nostrum perspiciatis delectus saepe
-        ullam fugit ad! Beatae, in excepturi obcaecati eveniet dolore, blanditiis
-        quos optio repudiandae sed illum eaque maxime consectetur sequi quibusdam doloribus. Veniam mollitia eveniet delectus porro eaque aperiam
+    <p class="my-5 whitespace-pre-line">
+        {!! $pengumuman['body'] !!}
     </p>
 
-    <img src="{{ asset('images/Berita/berita-1.jpg') }}" class="max-h-96 w-full object-cover" alt="">
+    {{-- <img src="{{ asset('images/Berita/berita-1.jpg') }}" class="max-h-96 w-full object-cover" alt=""> --}}
     
     <div class="mt-24 flex justify-between items-center">
-        <a href="#" class="link-primary">< Halaman Sebelumnya</a>
-        <a href="#" class="link-primary">Halaman Selanjutnya ></a>
+        @if(request()->idPengumuman > 1)
+            <a href="{{ route('pengumuman.detail', ['idPengumuman' => request()->idPengumuman-1 ]) }}" class="link-primary">< Halaman Sebelumnya</a>
+        @else
+            <div></div>
+        @endif
+
+        @if(request()->idPengumuman < count($daftarPengumuman))
+            <a href="{{ route('pengumuman.detail', ['idPengumuman' => request()->idPengumuman+1 ]) }}" class="link-primary">Halaman Selanjutnya ></a>
+        @endif
     </div>
 </section>
 

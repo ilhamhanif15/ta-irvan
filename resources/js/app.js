@@ -115,6 +115,10 @@ if (document.getElementById('datatable')) {
     $('#datatable').DataTable();
 }
 
+if (document.getElementsByClassName('datatable').length > 0) {
+    $('.datatable').DataTable();
+}
+
 /*------------------------------
 || Tree Views
 ------------------------------*/

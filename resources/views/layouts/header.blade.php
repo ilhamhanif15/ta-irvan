@@ -2,13 +2,13 @@
 <div class="flex justify-between container-pad items-center py-4 w-full bg-blue-900 text-white text-xs md:text-base">
     <div class="flex space-x-5">
         <div>
-            <i class="fa fa-phone"></i> 08112313123
+            <i class="fa fa-phone"></i> +62 812-7092-6523
         </div>
-        <div>
+        {{-- <div>
             <i class="fa fa-envelope"></i> sekolah@gmail.com
-        </div>
+        </div> --}}
         <div>
-            <i class="fa fa-map-marker"></i> Jln. Antapani 1 No. 1
+            <i class="fa fa-map-marker"></i> Jl. Pekanbaru - Bangkinang Km. 29
         </div>
     </div>
 
@@ -24,7 +24,7 @@
     <div class="py-4 md:mr-8">
         <a href="{{ route('website.home') }}" class="flex items-center">
             <span class="sr-only">Logo</span>
-            <img class="h-8 w-auto sm:h-10" src="{{ asset('images/logo.png') }}" alt="">
+            <img class="h-8 w-auto sm:h-12" src="{{ asset('images/logo.jpg') }}" alt="">
             <div class="text-primary font-bold ml-2">SMAN 1 TAMBANG</div>
         </a>
     </div>
@@ -43,7 +43,7 @@
 {{-- MOBILE SIDEBAR MENU --}}
 <div id="_sideNavBar" class="h-full w-0 fixed z-40 top-0 left-0 overflow-x-hidden bg-white shadow-lg transition-all duration-500">
     <div class="flex justify-between items-center container-pad py-5">
-        <img class="h-8 w-auto sm:h-10" src="{{ asset('images/logo.png') }}" alt="">
+        <img class="h-8 w-auto sm:h-10" src="{{ asset('images/logo.jpg') }}" alt="">
         <div class="text-primary font-bold ml-2">SMAN 1 TAMBANG</div>
         <button id="_sideNavBarCloseBtn" type="button" class="btn">
             <i class="fa fa-close"></i>

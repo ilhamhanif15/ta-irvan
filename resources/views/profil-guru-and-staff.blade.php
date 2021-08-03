@@ -20,46 +20,25 @@
     <div class="grid grid-cols-1 divide-y">
         
         {{-- GURU/STAFF --}}
-        <div class="grid grid-cols-3 items-center gap-4 my-4">
-            <div class="justify-self-center">
-                <img src="{{ asset('images/kepsek.jpg') }}" class="object-cover h-64 mt-8" alt="">
-            </div>
-            <div class="mx-5 col-span-2">
-                <div class="font-bold text-lg mb-3">Ibu Yoona</div>
-                <div class="text-sm">
-                    Jabatan : Kepala Sekolah
-                    <br/>
-                    <br/>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
+        @foreach ($data as $item)
+            <div class="grid grid-cols-3 items-center gap-4 my-4">
+                <div class="justify-self-center">
+                    <img src="{{ $item['image_url'] }}" class="object-cover h-64 mt-8" alt="">
+                </div>
+                <div class="mx-5 col-span-2">
+                    <div class="font-bold text-lg mb-2">{{ $item['name'] }}</div>
+                    <div class="text-sm leading-loose">
+                        Jabatan     : <strong>{{ $item['jabatan'] }}</strong><br/>
+                        Ditugaskan  : {{ $item['tgl_ditugaskan'] }}<br/>
+                        Nomor       : {{ $item['nomor'] }}<br/>
+                        <br/>
+                        Lahir       : {{ $item['lahir'] }}<br/>
+                        NUPTK       : {{ $item['nuptk'] }}<br/>
+                        NIP         : {{ $item['nip'] }}<br/>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        {{-- GURU/STAFF --}}
-        <div class="grid grid-cols-3 items-center gap-4 my-4">
-            <div class="justify-self-center">
-                <img src="{{ asset('images/kepsek.jpg') }}" class="object-cover h-64 mt-8" alt="">
-            </div>
-            <div class="mx-5 col-span-2">
-                <div class="font-bold text-lg mb-3">Ibu Yoona</div>
-                <div class="text-sm">
-                    Jabatan : Kepala Sekolah
-                    <br/>
-                    <br/>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempora nulla quos praesentium eaque. 
-                    Asperiores, nihil odio. Cupiditate, repudiandae libero alias vel 
-                    exercitationem veritatis iure reprehenderit officia eligendi aut!
-                </div>
-            </div>
-        </div>
+        @endforeach
 
 </section>
 

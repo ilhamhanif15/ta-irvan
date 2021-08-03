@@ -27,16 +27,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Hack Youtube</td>
-                    <td>Kecamatan</td>
-                    <td>2014</td>
-                </tr>
-                <tr>
-                    <td>Hack Google</td>
-                    <td>Nasional</td>
-                    <td>2018</td>
-                </tr>
+                @foreach ($data as $row)
+                    <tr>
+                        @foreach ($row as $col)
+                            <td>{{ $col }}</td>
+                        @endforeach
+                    </tr>
+                @endforeach
             </tbody>
         </table>
     </div>

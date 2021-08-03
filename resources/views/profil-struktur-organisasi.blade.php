@@ -17,7 +17,7 @@
 <section class="container-pad py-12">
 
     <div class="font-bold mb-5 text-2xl">STRUKTUR ORGANISASI SMAN 1 Tambang</div>
-    <img src="{{ asset('images/Berita/berita-1.jpg') }}" class="h-full w-full object-contain" alt="">
+    <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Foto guru dan struktur organisasi/Food Committee.png') }}" class="h-full w-full object-contain" alt="">
 
 </section>
 
