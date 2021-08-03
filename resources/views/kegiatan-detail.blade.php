@@ -23,7 +23,7 @@
         {!! $kegiatan['body'] !!}
     </p>
 
-    <img src="{{ $kegiatan['image_url'] ?? asset('images/gray.png') }}" class="max-h-96 w-full object-cover" alt="">
+    <img src="{{ $kegiatan['image_url'] ?? asset('images/gray.png') }}" class="w-full object-contain" alt="">
 
 
 

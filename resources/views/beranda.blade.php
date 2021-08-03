@@ -36,11 +36,11 @@
     {{-- KEPSEK --}}
     <div class="grid grid-cols-5 gap-3 items-center py-16 container-pad bg-blueGray-700 text-white">
         <div class="justify-self-center self-start mt-5">
-            <img src="{{ asset('images/profile-picture.webp') }}" class="h-52 object-cover" alt="" srcset="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/profile-picture.webp') : asset('images/Foto guru dan struktur organisasi/khairullah.png') }}" class="h-52 object-cover" alt="" srcset="">
             <div class="mt-1">{{ $kepsekName }}</div>
         </div>
 
-        <div class="col-span-4 whitespace-pre-line text-sm">
+        <div class="ml-2 col-span-4 whitespace-pre-line text-sm">
             {!! $sambutanText !!}
         </div>
     </div>
@@ -84,10 +84,10 @@
                 @foreach ($daftarPengumuman as $id => $pengumuman)
                     <a href="{{ route('pengumuman.detail', ['idPengumuman' => $id]) }}" class="link-primary">
                         <div class="flex justify-between items-center py-3">
-                            {{-- <div class="text-6xl">
-                                <i class="fa fa-bullhorn"></i>
-                            </div> --}}
-                            <div>
+                            <div class="h-full">
+                                <img class="w-44 h-24 object-contain" src="{{ $pengumuman['image_url'] }}" >
+                            </div>
+                            <div class="ml-5 text-xs">
                                 <div class="text-sm text-gray-500">diterbitkan : {{ $pengumuman['created_at'] }}</div>
                                 <div class="font-bold text-lg">{{ $pengumuman['title'] }}</div>
                                 <div class="text-gray-600">

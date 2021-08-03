@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Config;
 use App\DataCollection\DataSekolah;
+use Str;
 
 class WebController extends Controller
 {
@@ -112,6 +113,52 @@ class WebController extends Controller
             "totalPengumuman" => $totalPengumuman,
             "page" => (int) $page
         ]);
+    }
+
+    // PENCARIAN
+    public function searchList(Request $request)
+    {
+        $searchKeyword = Str::lower($request->s ?? '');
+
+        $dataBerita         = $this->_searchFunction($this->dataSekolah['berita'], $searchKeyword, "berita", "idBerita");
+        $dataKegiatan       = $this->_searchFunction($this->dataSekolah['kegiatan'], $searchKeyword, "kegiatan", "idKegiatan");
+        $dataPengumuman     = $this->_searchFunction($this->dataSekolah['pengumuman'], $searchKeyword, "pengumuman", "idPengumuman");
+
+        $datas = [
+            ...$dataBerita,
+            ...$dataKegiatan,
+            ...$dataPengumuman,
+        ];
+
+        $totalData = count($datas);
+
+        $page = $request->page ?? 1;
+        $limit = 4;
+
+        $dataList = collect($datas)->skip( ($page-1)*$limit )->take($limit);
+
+        return view('search', [
+            "datas" => $dataList,
+            "searchKeyword" => $searchKeyword,
+            "totalData" => $totalData,
+            "page" => (int) $page
+        ]);
+    }
+
+    private function _searchFunction($dataCollection, $keyword, $type, $idParamDetail)
+    {
+        $dataReturn = [];
+        foreach ($dataCollection as $id => $data) {
+            if (Str::contains( Str::lower($data['title']) , $keyword)) {
+                $temp           = $data;
+                $temp['id']     = $id;
+                $temp['type']   = $type;
+                $temp['route']  = route($type.'.detail', [$idParamDetail => $id]);
+                array_push($dataReturn, $temp);
+            }
+        }
+
+        return $dataReturn;
     }
 
 

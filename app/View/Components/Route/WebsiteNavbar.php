@@ -27,12 +27,6 @@ class WebsiteNavbar extends Component
                 "url" => route('website.home'),
                 "isActive" => Route::is('website.home'),
             ],
-            "KEGIATAN" => [
-                "name" => "Kegiatan",
-                "type" => "single",
-                "url" => route('kegiatan.list'),
-                "isActive" => Route::is('kegiatan.*'),
-            ],
             "PROFIL" => [
                 "name" => "Profil",
                 "type" => "multi",
@@ -75,6 +69,12 @@ class WebsiteNavbar extends Component
                     ],
                 ],
                 "isActive" => Route::is('profil.*'),
+            ],
+            "KEGIATAN" => [
+                "name" => "Kegiatan",
+                "type" => "single",
+                "url" => route('kegiatan.list'),
+                "isActive" => Route::is('kegiatan.*'),
             ],
             "E-LEARNING" => [
                 "name" => "E-Learning",

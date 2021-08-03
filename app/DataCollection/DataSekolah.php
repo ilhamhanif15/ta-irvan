@@ -50,7 +50,7 @@ class DataSekolah {
                 "2" => [
                     "title" => "2 Siswa Terbaik SMAN 1 Tambang Kembali Ambil Bagian Dalam Program KKP",
                     "body" => 'Tambang, inforiau - Setelah tahun lalu program kawah kepemimpinan pelajar (KKP) di ikuti oleh seluruh siswa se indonesia dan terpilihnya Tri Sonia Fitria siswa SMAN 1 Tambang yang mewakili propinsi Riau,maka untuk tahun ini Dua orang siswa terbaik sekolah ini kembali di berikan kesempatan lagi dalam mengikuti program dari Kementerian pendidikan dan kebudayaan republik indonesia di Jakarta. M.Agung Pertama Putra Dan Puteri Sakinah Di percaya mewakili sekolahnya karena kedua pelajar ini di nilai layak dan memiliki berbagai keunggulan sebagai siswa yang mempunyai jiwa kepemimpinan. Warga desa tambang dan desa pulau permai ini sudah mengikuti berbagi proses dan prosedur yang sudah di tetapkan panitia.selama 10 hari mereka di tempah dan di lihat kemampuan nya maka keduanya mendapatkan 10 besar dari seluruh kabupaten kota yang ada di riau. Putri Sakinah sendiri kepada inforiau Senen 10/10/16 menceritakan apa yang sudah di ikuti dalam tahapan seleksi program kawah kepemimpinan ini,mulai dari pembekalan materi di hotel mutiara merdeka sampai dirinya meneteskan air mata ketika mendatangi panti asuhan. ""Saya merasa sangat sedih mendengarkan curhat dan cerita dari penghuni panti yang mana mereka meskipun dalam keadaan yang serba pas pasan tetapi semangat belajarnya cukup tinggi.""kata putri. Sementara itu Kepala sekolah SMA 1 Tambang Drs Khairullah Spd Mpd yang di dampingi Amrizal bagian kesiswaan sangat bangga dengan apa yang sudah di capai oleh murid mereka ini. bagaimanapun sekolah tetap mendukung penuh apapun program positif yang akan di ikuti siswa. "Selaku pihak sekolah dirinya akan terus mendukung kegiatan ini,apalagi tujuan nya mencetak para pemimpin masa depan,bayangkan saja dari seluruh indonesia siswa yang bisa ikut program ini hanya 446 orang dan kampar sendiri itu juga di isi oleh siswa SMA tambang.""kata Khairullah Di rencanakan dalam program KKP ini siswa siswi yang mendapat kesempatan selama 10 hari di istana negara dan akan berjumpa presiden RI bersama kabinet kerjanya. Tentu ini akan menjadi dorongan bagi siswa ini menjadi seorang pemimpin di daerah mereka masing masing nantinya. kpy',
-                    "image_url" => null
+                    "image_url" => asset('images/Berita/gambar berita kedua.jpg')
                 ],
                 "3" => [
                     "title" => "Siswa SMAN 1 Tambang Dapat Penyuluhan Wasbang dari Babinsa Koramil 07/Kampar",
@@ -133,14 +133,14 @@ class DataSekolah {
             // Kegiatan
             'kegiatan' => [
                 "1" => [
-                    "title" => "Pengukuhan Ekstrakurikuler SMA Negeri 2 Tambang (Part 1)",
+                    "title" => "Pengukuhan Ekstrakurikuler SMAN 1 Tambang (Part 1)",
                     "body" => 'TAMBANG_ Di era pendidikan abad 21, generasi muda diharapkan memiliki kemampuan akademis dan juga keterampilan dan talenta non akademis.
         
                     Maka, kegiatan ekstrakurikuler adalah salah satu sarana bagi siswa untuk membantu perkembangan para siswa sesuai dengan kebutuhan, potensi, bakat dan minat siswa.
                     
                     Di samping itu, dengan mengikuti kegiatan ekstrakurikuler, diharapkan siswa dapat memupuk dan mengembangkan kepercayaan diri dan rasa tanggung jawab pribadi dan sosial siswa, serta mengaktualisasikan diri sehingga siswa dapat menemukan suasana baru untuk menghilangkan kejenuhan setelah belajar di ruangan kelas.
                     
-                    Pada Jumat, tanggal 31 Agustus 2018, pukul 02.30 WIB di adakan acara pembukaan pengukuhan ekstrakurikuler di SMA negeri 2 Tambang. Upacara dipimpin oleh ketua OSIS Abda Hidayatullah, dan kepala SMA Negeri 2 Tambang, Dr. Hj. Yanti Dasrita M.Si selaku pembina upacara. Peserta upacara adalah seluruh anggota ekstrakurikuler akademis maupun non akademis seperti ekskul Biolagi, Fisika, Kimia, Matematika , sosiologi, geografi dan sejarah. Ekskul non akademi yang menjadi peserta upacara adalah dari ekskul English Club, Basketball, Karate, Silat, Rohis, School Update, Tari, PMR dan Pramuka.
+                    Pada Jumat, tanggal 31 Agustus 2018, pukul 02.30 WIB di adakan acara pembukaan pengukuhan ekstrakurikuler di SMAN 1 Tambang. Upacara dipimpin oleh ketua OSIS Abda Hidayatullah, dan kepala SMAN 1 Tambang, Dr. Hj. Yanti Dasrita M.Si selaku pembina upacara. Peserta upacara adalah seluruh anggota ekstrakurikuler akademis maupun non akademis seperti ekskul Biolagi, Fisika, Kimia, Matematika , sosiologi, geografi dan sejarah. Ekskul non akademi yang menjadi peserta upacara adalah dari ekskul English Club, Basketball, Karate, Silat, Rohis, School Update, Tari, PMR dan Pramuka.
                     
                     Upacara pembukaan pengukuhan ekstrakurikuler ini awali dengan tari persembahan yang ditampilkan siswi dari ekstrakurikuler Tari.
                     
@@ -155,12 +155,12 @@ class DataSekolah {
                     "created_at" => "02 September 2018"
                 ],
                 "2" => [
-                    "title" => "Satlantas Polres Kampar Adakan Sosialisasi Tertib Berlalulintas di SMAN 1 Koto Kampar Hulu",
-                    "body" => 'KAMPAR,ULASFAKTA.Com – Dalam rangka meningkatkan kesadaran dan kepatuhan masyarakat dalam berlalulintas, Satuan Lalulintas Polres Kampar melakukan sosialisasi tentang etika tertib berlalulintas di SMA Negeri I Koto Kampar Hulu, pada Rabu pagi (17/03/2021) sekira pukul 09.00 wib.
+                    "title" => "Satlantas Polres Kampar Adakan Sosialisasi Tertib Berlalulintas di SMAN 1 Tambang",
+                    "body" => 'KAMPAR,ULASFAKTA.Com – Dalam rangka meningkatkan kesadaran dan kepatuhan masyarakat dalam berlalulintas, Satuan Lalulintas Polres Kampar melakukan sosialisasi tentang etika tertib berlalulintas di SMAN 1 Tambang, pada Rabu pagi (17/03/2021) sekira pukul 09.00 wib.
         
                     Tim sosialisasi dari Satlantas Polres Kampar ini dipimpin PS. Kanit Dikyasa AIPTU Junaydi SE, dengan anggota AIPDA Hendra Fitrawan SE, BRIPKA Prori Arpaini SH dan BRIPKA Citra Mulyo.
                     
-                    Puluhan siswa SMA Negeri I Koto Kampar Hulu ini mengikuti arahan tentang tertib berlalulintas yang disampaikan Personel Satlantas Polres Kampar, para siswa ini juga didampingi Kepala Sekolah Bpk. Anantur S.Pd serta majelis guru.
+                    Puluhan siswa SMAN 1 Tambang ini mengikuti arahan tentang tertib berlalulintas yang disampaikan Personel Satlantas Polres Kampar, para siswa ini juga didampingi Kepala Sekolah Bpk. Anantur S.Pd serta majelis guru.
                     
                     Mereka cukup antusias mengikuti arahan yang disampaikan Para Polantas ini, pada kesempatan tersebut juga dilakukan sesi tanyajawab seputar aturan berlalulintas serta hal lainnya terkait dengan materi yang disampaikan.
                     
@@ -171,10 +171,10 @@ class DataSekolah {
                     "created_at" => "17 Maret 2021"
                 ],
                 "3" => [
-                    "title" => "SISWA KELAS X SMAN PLUS MENGIKUTI OUTBOND DI TAMAN AGRO WISATA SUNGAI PINANG NADIN ",
-                    "body" => 'Sebanyak 150 siswa kelas X mengikuti kegiatan outbond di taman agrowisata Sungai Pinang Nadin Kabupaten Kampar (Minggu/4 Agustus 2019). Menurut Waka. Kesiswaan SMAN Plus Provinsi Riau, Drs.H.Hasidin Pospos, M.Pd “ Kegiatan outbond ini merupakan salah satu proses yang harus diikuti oleh peserta didik baru SMAN Plus Provinsi Riau. Kegiatan outbond ini sangat bermanfaat bagi mereka yang selama 3 tahun kedepan akan tinggal di asrama. Pembentukan karakter siswa, team building dan team work akan sangat bermanfaat bagi anak anak karena mereka selama 3 tahun kedepan akan dituntut untuk hidup mandiri dan jauh dari orang tuanya”. 
-                    Sementara Kepala SMA Negeri Plus Provinsi Riau, Drs.H.Rivai, M.Pd sangat mengapresiasi kegiatan outbond ini. “ Kegiatan outbond siswa kelas X ini akan sangat berdampak positif bagi mental spiritual mereka karena dalam kehidupan diasrama mereka akan mengikuti pembinaan kesamaptaan. Pondasi dari sekolah semi militer seperti SMA Negeri Plus Provinsi Riau ya tentu saja team work dan team building karena mereka dituntut untuk berpikir kritis dan selalu mencari solusi (problem-solving)” ujarnya disela sela mengikuti kegiatan outbond ini.
-                    Kegiatan outbond ini sendiri melibatkan seluruh anggota OSIS (kakak tingkat) dan juga pendidik dan tenaga kependidikan SMA Negeri Plus Provinsi Riau. Semua keluarga besar SMA Negeri Plus Provinsi Riau membaur menjadi satu  dan mengikuti kegiatan outbond ini sampai selesai. Outbound ini juga sekaligus sebagai refreshing seluruh anggota keluarga besar SMA Negeri Plus Provinsi Riau.
+                    "title" => "SISWA KELAS X SMAN 1 Tambang MENGIKUTI OUTBOND DI TAMAN AGRO WISATA SUNGAI PINANG NADIN ",
+                    "body" => 'Sebanyak 150 siswa kelas X mengikuti kegiatan outbond di taman agrowisata Sungai Pinang Nadin Kabupaten Kampar (Minggu/4 Agustus 2019). Menurut Waka. Kesiswaan SMAN 1 Tambang, Drs.H.Hasidin Pospos, M.Pd “ Kegiatan outbond ini merupakan salah satu proses yang harus diikuti oleh peserta didik baru SMAN 1 Tambang. Kegiatan outbond ini sangat bermanfaat bagi mereka yang selama 3 tahun kedepan akan tinggal di asrama. Pembentukan karakter siswa, team building dan team work akan sangat bermanfaat bagi anak anak karena mereka selama 3 tahun kedepan akan dituntut untuk hidup mandiri dan jauh dari orang tuanya”. 
+                    Sementara Kepala SMAN 1 Tambang, Drs.H.Rivai, M.Pd sangat mengapresiasi kegiatan outbond ini. “ Kegiatan outbond siswa kelas X ini akan sangat berdampak positif bagi mental spiritual mereka karena dalam kehidupan diasrama mereka akan mengikuti pembinaan kesamaptaan. Pondasi dari sekolah semi militer seperti SMAN 1 Tambang ya tentu saja team work dan team building karena mereka dituntut untuk berpikir kritis dan selalu mencari solusi (problem-solving)” ujarnya disela sela mengikuti kegiatan outbond ini.
+                    Kegiatan outbond ini sendiri melibatkan seluruh anggota OSIS (kakak tingkat) dan juga pendidik dan tenaga kependidikan SMAN 1 Tambang. Semua keluarga besar SMAN 1 Tambang membaur menjadi satu  dan mengikuti kegiatan outbond ini sampai selesai. Outbound ini juga sekaligus sebagai refreshing seluruh anggota keluarga besar SMAN 1 Tambang.
                     Dengan beragam jenis permainan yang diselenggarakan, harapan besarnya para siswa semakin bersemangat ketika kembali belajar dan dapat melahirkan ide-ide serta terobosan baru yang bermanfaat bagi masa depan siswa dan juga kemajuan sekolahnya. Kekompakan yang terbentuk saat outbound training diharapkan terbawa seterusnya dalam belajar, sehingga saat terjdi masalah, para siswa lebih solid satu sama lain dan saling berkolaborasi untuk memecahkan masalah tersebut.
                     Secara umum ada 5 manfaat kegiatan outbond ini sendiri, yaitu:
                     1. Meningkatkan kemampuan aktualisasi diri seorang siswa yang pada akhirnya akan memberikan kontribusi positif bagi kemajuan sekolah.
@@ -187,7 +187,7 @@ class DataSekolah {
                 ],
                 "4" => [
                     "title" => "24 Siswa Kelas XI IPS melakukan Research Sosiologi di desa Koto Tuo, Kampar",
-                    "body" => 'Pada hari Minggu tanggal 18 Agustus 2019 lalu, sebanyak 24 siswa/I kelas XI SS SMA Negeri Plus Provinsi Riau dan 2 orang guru pendamping melakukan kegiatan penelitian di desa Koto Tuo, Kecamatan XIII Koto Kampar, Kabupaten Kampar. Kegiatan ini bermaksud untuk mengetahui bagaimana proses kehidupan masyarakat desa Koto Tuo Kecamatan XIII Koto Kampar yang daerahnya terletak di perbatasan Riau dan Sumatera Barat.
+                    "body" => 'Pada hari Minggu tanggal 18 Agustus 2019 lalu, sebanyak 24 siswa/I kelas XI SS SMAN 1 Tambang dan 2 orang guru pendamping melakukan kegiatan penelitian di desa Koto Tuo, Kecamatan XIII Koto Kampar, Kabupaten Kampar. Kegiatan ini bermaksud untuk mengetahui bagaimana proses kehidupan masyarakat desa Koto Tuo Kecamatan XIII Koto Kampar yang daerahnya terletak di perbatasan Riau dan Sumatera Barat.
                     Tujuan dari kegiatan ini adalah ingin mengetahui perubahan sosial yang terjadi akibat perpindahan masyarakat yang dulunya berada di kawasan danau PLTA Koto Panjang. Geografis Desa Koto Tuo merupakan salah satu Desa di Kecamatan XIII Koto Kampar Kabupaten Kampar. Desa ini berjarak 5 KM dari situs budaya candi Muara Takus. Desa Koto Tuo merupakan desa yang perkebunannya didominasi oleh karet. Hal ini disebabkan pada tahun 1993 desa Koto Tuo yang awalnya berada di danau PLTA Koto Panjang, di pindahkan oleh pihak pemerintah karena desa mereka akan ditenggelamkan untuk menjadi sumber tenaga pembangkit listrik di daerah tersebut. Perpindahan ini menuai kontroversi dari pihak masyarakat desa.
                     Para masyarakat desa menolak untuk dipindahkan ke daerah yang telah ditentukan. Setelah
                     melakukan kesepakatan, para masyarakat desa setuju dipindahkan ke lokasi yang telah ditentukan oleh pihak pemerintah dan diberikan ganti rugi berupa rumah dan sebidang perkebunan karet seluas 2 Ha. Mayoritas mata pencaharian masyarakat desa Koto Tuo saat ini adalah petani karet dan nelayan. Bahasa yang digunakan masyarakat desa Koto Tuo adalah bahasa ocu, dengan mayoritas agama Islam. Ada lima suku yang tinggal di desa Koto Tuo yaitu; Pitopang, Piliang, Chaniago, Domo, Melayu. Masing-masing pucuk suku memiliki gelar yang berbeda-beda. Pucuk suku Pitopang bergelar Datuok Majokayo, Pucuk suku Chaniago bergelar Paduko Rajo dan Paduko Tuan, Pucuk suku Melayu bergelar Sindaro Kayo dan Datuok Kayo, Pucuk suku Domo bergelar Gindo Marajo, jalang Koto, Datuok Sati; dan Pucuk suku Piliang bergelar Datuok Masi.
@@ -198,18 +198,18 @@ class DataSekolah {
                     "created_at" => "22 Agustus 2019"
                 ],
                 "5" => [
-                    "title" => "Kapolres Kampar Motivasi Para Pelajar, Gelar Police Goes to School di SMAN 1 Bangkinang",
+                    "title" => "Kapolres Kampar Motivasi Para Pelajar, Gelar Police Goes to School di SMAN 1 Tambang",
                     "body" => '
         
-                    Bangkinang Kota, Detaksatu.com – Kapolres Kampar AKBP Andri Ananta Yudhistira SIK, MH melaksanakan kegiatan Police Goes to School di SMA Negeri 1 Kecamatan Bangkinang Kota.
+                    Bangkinang Kota, Detaksatu.com – Kapolres Kampar AKBP Andri Ananta Yudhistira SIK, MH melaksanakan kegiatan Police Goes to School di SMAN 1 Tambang.
                     
                     Ikut menyertai Kapolres dalam kegiatan ini antara lain Kaur Bin Ops Satlantas Iptu Try Widyanto SIK, Kaur Regident Ipda Angga Dewansyah S.Trk dan sejumlah Personel Satlantas serta Kasubbag Humas Iptu Deni Yusra., Kamis 15/08/2019.
                     
-                    Kapolres Kampar tiba di SMAN 1 Bangkinang Kota sekira pukul 07.15 wib dan disambut oleh Kepala Sekolah Bpk. M. Hendra Yunal MSi beserta majelis guru dan Ketua Komite Sekolah.
+                    Kapolres Kampar tiba di SMAN 1 Tambang Kota sekira pukul 07.15 wib dan disambut oleh Kepala Sekolah Bpk. M. Hendra Yunal MSi beserta majelis guru dan Ketua Komite Sekolah.
                     
-                    Selanjutnya Kapolres Kampar didampingi Kepala Sekolah menuju lapangan upacara SMA Negeri 1 Bangkinang Kota, untuk memberikan arahan kepada para pelajar dari kelas X, XI dan XII yang berjumlah sekitar seribu orang.
+                    Selanjutnya Kapolres Kampar didampingi Kepala Sekolah menuju lapangan upacara SMAN 1 Tambang, untuk memberikan arahan kepada para pelajar dari kelas X, XI dan XII yang berjumlah sekitar seribu orang.
                     
-                    Acara diawali Kata sambutan dari Kepala Sekolah Bpk. M. Hendra Yunal MSi, yang menyampaikan ucapan terimakasih atas kunjungan Kapolres Kampar dan rombongan di SMA negeri 1 Kecamatan Bangkinang Kota, dalam rangka melakukan pembinaan bagi para pelajar.
+                    Acara diawali Kata sambutan dari Kepala Sekolah Bpk. M. Hendra Yunal MSi, yang menyampaikan ucapan terimakasih atas kunjungan Kapolres Kampar dan rombongan di SMAN 1 Tambang, dalam rangka melakukan pembinaan bagi para pelajar.
                     
                     Kepala Sekolah menjelaskan bahwa jumlah siswa di sekolah ini sebanyak 1.030 orang dengan jumlah guru sebanyak 105 orang, dan sekolah ini memiliki guru yang terbanyak dari lulusan S2 untuk Kabupaten Kampar.
                     
@@ -223,9 +223,9 @@ class DataSekolah {
                     
                     Saat perwakilan siswa menanyakan tips untuk mencapai kesuksesan, disampaikan Kapolres ada 3 poin yang harus dilakukan yaitu giat belajar, tertib berlalulintas dan jauhi narkoba.
                     
-                    Mengakhiri kegiatannya di SMA Negeri 1 Bangkinang Kota ini, Kapolres bersama Kepala Sekolah, Ketua Komite Sekolah, Majelis Guru dan Para Siswa, melakukan Sesi Foto Bersama dan membuat video ucapan Selamat Ulang Tahun RI ke-74 dengan ucapan “Dirgahayu Republik Indonesia, menuju Indonesia yang Unggul”.
+                    Mengakhiri kegiatannya di SMAN 1 Tambang, Kapolres bersama Kepala Sekolah, Ketua Komite Sekolah, Majelis Guru dan Para Siswa, melakukan Sesi Foto Bersama dan membuat video ucapan Selamat Ulang Tahun RI ke-74 dengan ucapan “Dirgahayu Republik Indonesia, menuju Indonesia yang Unggul”.
                     
-                    Kegiatan Police Goes to School Kapolres Kampar di SMA Negeri 1 Bangkinang Kota ini berakhir sekira pukul 08.45 wib, dan seluruh rangkaian acara berlangsung dengan aman dan lancar.
+                    Kegiatan Police Goes to School Kapolres Kampar di SMAN 1 Tambang berakhir sekira pukul 08.45 wib, dan seluruh rangkaian acara berlangsung dengan aman dan lancar.
                     
                     Laporan : Dien puga/rls
                     ',
@@ -233,12 +233,12 @@ class DataSekolah {
                     "created_at" => "15 Agustus 2019"
                 ],
                 "6" => [
-                    "title" => "Osis SMA S LKMD Sukaramai Adakan Latihan Dasar Kepemimpinan Siswa",
-                    "body" => 'OSIS SMA S LKMD Sukaramai, Kecamatan Tapung Hulu, Kabupaten Kampar mengadakan kegiatan Latihan Dasar Kepemimpinan Siswa (LDKS) pada hari Sabtu (29/7/2016). Kegiatan ini diikuti oleh sekitar 80 orang siswa yang merupakan pengurus Organisasi Siswa Intra Sekolah (OSIS) dan Majelis Perwakilan Kelas (MPK) yang merupakan perwakilan siswa dari masing-masing kelas. Tema yang diangkat dalam kegiatan ini adalah membangun generasi berjiwa leadership.
+                    "title" => "Osis SMAN 1 Tambang Adakan Latihan Dasar Kepemimpinan Siswa",
+                    "body" => 'OSIS SMAN 1 Tambang, Kecamatan Tapung Hulu, Kabupaten Kampar mengadakan kegiatan Latihan Dasar Kepemimpinan Siswa (LDKS) pada hari Sabtu (29/7/2016). Kegiatan ini diikuti oleh sekitar 80 orang siswa yang merupakan pengurus Organisasi Siswa Intra Sekolah (OSIS) dan Majelis Perwakilan Kelas (MPK) yang merupakan perwakilan siswa dari masing-masing kelas. Tema yang diangkat dalam kegiatan ini adalah membangun generasi berjiwa leadership.
         
                     Kegiatan ini diawali dengan opening ceremony yang dibuka langsung secara resmi oleh Suhaidi S.Pd.I selaku Kepala Sekolah SMA S LKMD. Dalam sambutannya beliau berharap siswa bisa serius mengikuti kegiatan LDKS ini agar bisa mempelajari bagaimana cara agar bisa memiliki jiwa kepemimpinan di dalam diri masing-masing sehingga bisa menjadi seorang pemimpin yang baik.
                     
-                    Selain itu, beliau juga berharap dengan adanya kegiatan LDKS ini bisa menjadi sarana untuk mengenal potensi kepemimpinan yang ada dalam diri siswa sehingga OSIS dan MPK serta kegiatan ekstrakurikuler lainnya yang ada di SMA S LKMD Sukaramai bisa menjadi lebih baik lagi kualitasnya.
+                    Selain itu, beliau juga berharap dengan adanya kegiatan LDKS ini bisa menjadi sarana untuk mengenal potensi kepemimpinan yang ada dalam diri siswa sehingga OSIS dan MPK serta kegiatan ekstrakurikuler lainnya yang ada di SMAN 1 Tambang bisa menjadi lebih baik lagi kualitasnya.
                     
                     Dalam pelaksanaan kegiatan ini, ada beberapa materi yang dibahas yaitu materi tentang pengenalan OSIS dan  MPK beserta tugas pokok dan fungsinya (TUPOKSI) yang disampaikan oleh Herpika Yunita Elza S.Pd, dan materi tentang Super Leadership serta super team oleh Niki Dian Permana, M.Pd.
                     
@@ -249,14 +249,14 @@ class DataSekolah {
                     "created_at" => "01 Agustus 2016"
                 ],
                 "7" => [
-                    "title" => "SMAN 2 Kampar Kiri Tengah laksanakan Ujian Kenaikan Kelas Berbasis Komputer (CBT)",
-                    "body" => 'SMA Negeri 2 Kampar Kiri Tengah membuat gebrakan baru di sistem akademiknya. Pelaksaan Ujian Kenaikan kelas pada tahun pelajaran 2018/2019 di SMA Negeri 2 Kampar Kiri Tengah menggunakan sistem CBT atau Ujian Berbasis Komputer.
+                    "title" => "SMAN 1 Tambang laksanakan Ujian Kenaikan Kelas Berbasis Komputer (CBT)",
+                    "body" => 'SMAN 1 Tambang membuat gebrakan baru di sistem akademiknya. Pelaksaan Ujian Kenaikan kelas pada tahun pelajaran 2018/2019 di SMAN 1 Tambang menggunakan sistem CBT atau Ujian Berbasis Komputer.
         
-                    Ujian berbasis komputer dinalai oleh Kepala SMA Negeri 2 Kampar Kiri Tengah merupakan kemajuan yang sangat luar biasa yang dialami oleh SMA Negeri 2 Kampar Kiri Tengah. "Kita mendukung program paperless, sehingga kemampuan anak terhadap teknologi akan menjadi semakin lebih baik, dengan ujian berbasis komputer juga akan memberikan kemudahan bagi anak dalam menyelesaikan soal-soal yang diberikan. Di Kabupaten Kampar baru kita yang menggunakan sistem ini, sehingga ini menjadi kemajuan yang luar biasa bagi sekolah yang baru berdiri pada tahun 2014 ini" ujar kepala SMA Negeri 2 Kampar Kiri Tengah.
+                    Ujian berbasis komputer dinalai oleh Kepala SMAN 1 Tambang merupakan kemajuan yang sangat luar biasa yang dialami oleh SMAN 1 Tambang. "Kita mendukung program paperless, sehingga kemampuan anak terhadap teknologi akan menjadi semakin lebih baik, dengan ujian berbasis komputer juga akan memberikan kemudahan bagi anak dalam menyelesaikan soal-soal yang diberikan. Di Kabupaten Kampar baru kita yang menggunakan sistem ini, sehingga ini menjadi kemajuan yang luar biasa bagi sekolah yang baru berdiri pada tahun 2014 ini" ujar kepala SMAN 1 Tambang.
                     
-                    Dengan baru memiliki 1 lab. komputer, membuat ujian di SMA Negeri 2 Kampar Kiri Tengah yang dilaksanakan dari tanggal 13-24 Mei 2019 ini dibagi menjadi menjadi 6 sesi. 
+                    Dengan baru memiliki 1 lab. komputer, membuat ujian di SMAN 1 Tambang yang dilaksanakan dari tanggal 13-24 Mei 2019 ini dibagi menjadi menjadi 6 sesi. 
                     
-                    Dengan usaha yang dilakukan oleh SMA Negeri 2 Kampar Kiri Tengah ini akan menjadi dasar yang kokoh untuk kemajuan sekolah yang lebih baik nantinya.',
+                    Dengan usaha yang dilakukan oleh SMAN 1 Tambang ini akan menjadi dasar yang kokoh untuk kemajuan sekolah yang lebih baik nantinya.',
                     "image_url" => asset('images/Kegiatan/kegiatan-7.jpg'),
                     "created_at" => "14 Mei 2019"
                 ],
@@ -283,7 +283,7 @@ class DataSekolah {
                     
                     Panitia MUTASI
                     ttd',
-                    'image_url' => asset('images/gb110.jpg'),
+                    'image_url' => asset('images/pengumuman/peng-1.jpeg'),
                     'created_at' => "05 Juli 2021"
                 ],
                 "2" => [
@@ -315,7 +315,7 @@ class DataSekolah {
                     
                     Panitia MUTASI SMAN 1 Tambang.
                     ttd.',
-                    "image_url" => asset('images/gb110.jpg'),
+                    "image_url" => asset('images/pengumuman/peng-2.jpeg'),
                     "created_at" => '06 Juli 2021',
                 ],
                 "3" => [
@@ -338,7 +338,7 @@ class DataSekolah {
                     
                     Panitia upacara
                     ttd',
-                    "image_url" => asset('images/gb110.jpg'),
+                    "image_url" => asset('images/pengumuman/upacara.jpg'),
                     "created_at" => '28 April 2021',
                 ],
                 "4" => [
@@ -354,7 +354,7 @@ class DataSekolah {
                     d. Menjaga jarak dengan teman-teman
                     
                     Sekian, terima kasih.',
-                    "image_url" => asset('images/gb110.jpg'),
+                    "image_url" => asset('images/pengumuman/peng-2.jpeg'),
                     "created_at" => '28 April 2021',
                 ],
                 "5" => [
@@ -377,7 +377,7 @@ class DataSekolah {
                     
                     Panitia upacara
                     ttd',
-                    "image_url" => asset('images/gb110.jpg'),
+                    "image_url" => asset('images/pengumuman/upacara.jpg'),
                     "created_at" => '15 Agustus 2021',
                 ],
             ],
@@ -422,7 +422,7 @@ class DataSekolah {
                     "jabatan" => "Wakil Kepala Sekolah",
                     "tgl_ditugaskan" => "2004-07-01",
                     "nomor" => "1023/424.1/2004",
-                    "image_url" => asset('images/profile-picture.webp')
+                    "image_url" => asset('images/Foto guru dan struktur organisasi/nasrial.jpg')
                 ],
                 [
                     "name" => "SYAHRUMAN",

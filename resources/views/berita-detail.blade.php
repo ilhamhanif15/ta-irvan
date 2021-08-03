@@ -24,7 +24,7 @@
 
     <div class="font-bold mb-3">BERITA</div>
     @if ($berita['image_url'])
-        <img src="{{ $berita['image_url'] }}" class="max-h-96 w-full object-cover" alt="">
+        <img src="{{ $berita['image_url'] }}" class="w-full object-contain" alt="">
     @endif
     <div class="font-bold text-3xl mb-3 text-center mt-12">{{ $berita['title'] }}</div>
 

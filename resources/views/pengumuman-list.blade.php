@@ -22,9 +22,7 @@
         {{-- PENGUMUMAN --}}
         @foreach ($daftarPengumuman as $id => $pengumuman)
             <div class="flex items-start justify-between my-4">
-                {{-- <div class="text-7xl mr-3">
-                    <i class="fa fa-bullhorn"></i>
-                </div> --}}
+                <img src="{{ $pengumuman['image_url'] ?? asset('images/gray.png') }}" class="w-64 object-cover h-44" alt="">
                 <div class="mx-5">
                     <div class="text-sm text-gray-500">Diterbitkan : {{ $pengumuman['created_at'] }}</div>
                     <div class="font-bold text-lg mb-3">{{ $pengumuman['title'] }}</div>

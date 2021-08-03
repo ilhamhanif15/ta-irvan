@@ -48,10 +48,15 @@
                             <div class="font-bold text-lg mb-2">Layanan Lainnya</div>
                             <hr class="border-2 border-blue-300 mb-5 w-16"/>
                             <div class="flex flex-col text-sm leading-loose">
-                                <div>Berita</div>
-                                <div>Agenda Kegiatan</div>
-                                <div>Kalender Akademik</div>
-                                <div>Jurnal</div>
+                                <div>
+                                    <a class="btn hover:text-blue-300" href="{{ route('berita.list') }}">Berita</a>
+                                </div>
+                                <div>
+                                    <a class="btn hover:text-blue-300" href="{{ route('pengumuman.list') }}">Pengumuman</a>
+                                </div>
+                                <div>
+                                    <a class="btn hover:text-blue-300" href="{{ route('kegiatan.list') }}">Agenda Kegiatan</a>
+                                </div>
                             </div>
                         </div>
 

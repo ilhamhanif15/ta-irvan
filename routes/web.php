@@ -49,5 +49,7 @@ Route::prefix('pengumuman')->group(function () {
     Route::get('detail/{idPengumuman}', [WebController::class, 'pengumumanDetail'])->name('pengumuman.detail');
 });
 
+Route::get('/pencarian', [WebController::class, 'searchList'])->name('search.list');
+
 Route::get('e-books', function () { return view('e-books'); })->name('e-books');
 Route::get('e-learning', function () { return view('e-learning'); })->name('e-learning');

@@ -75,32 +75,32 @@
     <div class="grid grid-cols-3 gap-10 mt-24 px-24">
 
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-2.jpg') }}" alt="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/lab.jpg') }}" alt="">
             <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Laboratorium" }}</div>
         </div>
         
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-1.jpg') }}" alt="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/lapangan.jpeg') }}" alt="">
             <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Lapangan" }}</div>
         </div>
         
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-1.jpg') }}" alt="">
-            <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Ruang Ekskul" }}</div>
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/perpus.jpg') }}" alt="">
+            <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Perpustakaan" }}</div>
         </div>
         
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-2.jpg') }}" alt="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/mushola.jpg') }}" alt="">
             <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Mushola" }}</div>
         </div>
         
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-1.jpg') }}" alt="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/kantin.jpg') }}" alt="">
             <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Kantin" }}</div>
         </div>
         
         <div>
-            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/Headline/image-1.jpg') }}" alt="">
+            <img src="{{ env('MOCKUP_MODE', false) ? asset('images/gray.png') : asset('images/ruang osis.jpg') }}" alt="">
             <div class="text-center">{{ env('MOCKUP_MODE', false) ? "Lorem, ipsum dolor." : "Ruang OSIS" }}</div>
         </div>
     </div>

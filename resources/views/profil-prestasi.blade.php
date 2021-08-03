@@ -15,7 +15,7 @@
 </div>
 
 <section class="container-pad py-12">
-    <div class="font-bold mb-5">PROFIL SMAN 1 Tambang</div>
+    <div class="font-bold mb-5">PRESTASI SMAN 1 Tambang</div>
 
     <div>
         <table id="datatable" class="display w-full">

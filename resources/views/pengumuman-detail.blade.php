@@ -23,6 +23,9 @@
 <section class="container-pad py-12">
 
     <div class="font-bold mb-3">PENGUMUMAN</div>
+    @if ($pengumuman['image_url'])
+        <img src="{{ $pengumuman['image_url'] }}" class="w-full object-contain" alt="">
+    @endif
     <div class="font-bold text-3xl mb-3 text-center mt-12">{{ $pengumuman['title'] }}</div>
 
     <p class="my-5 whitespace-pre-line">

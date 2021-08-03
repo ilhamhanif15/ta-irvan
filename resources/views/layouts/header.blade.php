@@ -12,10 +12,19 @@
         </div>
     </div>
 
-    <div class="flex space-x-4">
+    {{-- <div class="flex space-x-4">
         <i class="fa fa-facebook-square"></i>
         <i class="fa fa-twitter"></i>
         <i class="fa fa-google"></i>
+    </div> --}}
+
+    <div>
+        <form action="{{ route('search.list') }}" method="GET">
+            <input name="s" type="text" value="{{ request()->s ?? '' }}" placeholder="Pencarian" class="py-2 px-3 focus:outline-none border rounded-l-lg border-gray-400 text-black">
+            <button class="btn bg-gray-200 py-2 px-3 text-black -m-2 border rounded-r-lg">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
     </div>
 </div>
 
@@ -25,7 +34,7 @@
         <a href="{{ route('website.home') }}" class="flex items-center">
             <span class="sr-only">Logo</span>
             <img class="h-8 w-auto sm:h-12" src="{{ asset('images/logo.jpg') }}" alt="">
-            <div class="text-primary font-bold ml-2">SMAN 1 TAMBANG</div>
+            <div class="text-primary font-bold ml-2 text-xl">SMAN 1 TAMBANG</div>
         </a>
     </div>
 
