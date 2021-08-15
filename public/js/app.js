@@ -138,7 +138,10 @@ if (document.getElementById('calendar')) {
 
 
 if (document.getElementById('datatable')) {
-  $('#datatable').DataTable();
+  $('#datatable').DataTable({
+    "order": [],
+    "aLengthMenu": [100]
+  });
 }
 
 if (document.getElementsByClassName('datatable').length > 0) {

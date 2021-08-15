@@ -112,7 +112,10 @@ if (document.getElementById('calendar')) {
 || Datatable
 ------------------------------*/
 if (document.getElementById('datatable')) {
-    $('#datatable').DataTable();
+    $('#datatable').DataTable({
+        "order": [],
+        "aLengthMenu": [100]
+    });
 }
 
 if (document.getElementsByClassName('datatable').length > 0) {
@@ -131,5 +134,3 @@ for (i = 0; i < toggler.length; i++) {
     this.classList.toggle("caret-down");
   });
 }
-
-

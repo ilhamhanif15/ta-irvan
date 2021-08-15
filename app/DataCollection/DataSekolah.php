@@ -494,6 +494,354 @@ class DataSekolah {
                     "nomor" => "21552/I09.3b/C2-1985",
                     "image_url" => asset('images/Foto guru dan struktur organisasi/sarmuji.jpg')
                 ],
+            ],
+
+            // Mata Pelajaran
+            'mata-pelajaran' => [
+                self::_getMataPelajaran("Pendidikan Agama", 10, "Umum", "PAI"),
+                self::_getMataPelajaran("Geografi", 10, "Umum"),
+                self::_getMataPelajaran("Ekonomi", 10, "Umum"),
+                self::_getMataPelajaran("Sosiologi", 10, "Umum"),
+                self::_getMataPelajaran("Seni Budaya", 10, "Umum"),
+                self::_getMataPelajaran("Pendidikan Jasmani, Olahraga, dan Kesehatan", 10, "Umum"),
+                self::_getMataPelajaran("Teknologi Informasi dan Komunikasi", 10, "Umum"),
+                self::_getMataPelajaran("Pendidikan Kewarganegaraan", 10, "Umum"),
+                self::_getMataPelajaran("Bahasa Indonesia", 10, "Umum"),
+                self::_getMataPelajaran("Bahasa Inggris", 10, "Umum"),
+                self::_getMataPelajaran("Matematika", 10, "Umum"),
+                self::_getMataPelajaran("Fisika", 10, "Umum"),
+                self::_getMataPelajaran("Biologi", 10, "Umum"),
+                self::_getMataPelajaran("Kimia", 10, "Umum"),
+                self::_getMataPelajaran("Sejarah", 10, "Umum"),
+                self::_getMataPelajaran("MUATAN LOKAL (BUD DAERAH)", 10, "Umum", "MULOK"),
+                self::_getMataPelajaran("Pendidikan Agama", 11, "Matematika dan Ilmu Alam"),
+                self::_getMataPelajaran("Seni Budaya", 11, "Matematika dan Ilmu Alam"),
+                self::_getMataPelajaran("Pendidikan Jasmani, Olahraga, dan Kesehatan", 11, "Matematika dan Ilmu Alam"),
+                self::_getMataPelajaran("Teknologi Informasi dan Komunikasi", 11, "Matematika dan Ilmu Alam"),
+            ],
+
+            // JADWAL PELAJARAN
+            'jadwal-pelajaran' => [
+                "x-a" => [
+                    "kelas" => "X-A",
+                    "data" => [
+                        self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) Pendidikan Agama (Islam) dan Budi Pekerti 
+                            (08:15 - 09:00) Pendidikan Agama (Islam) dan Budi Pekerti 
+        
+                            (09:15 - 10:00) Pendidikan Kewarganegaraan
+                            (10:00 – 10:45) Pendidikan Kewarganegaraan
+        
+                            (10:45 - 11:30) Bahasa Inggris
+                            (11:30 - 12:15) Bahasa Inggris 
+        
+                            (13:00 – 13:45) Matematika
+                            (13:45 – 14-30) Matematika"),
+                        self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) Sejarah
+                            (08:15 - 09:00) Sejarah
+        
+                            (09:15 - 10:00) Pendidikan Olahraga dan Kesehatan
+                            (10:00 – 10:45) Pendidikan Olahraga dan Kesehatan
+        
+                            (10:45 - 11:30) Prakarya dan Kewirausahaan
+                            (11:30 - 12:15) Prakarya dan Kewirausahaan
+        
+                            (13:00 – 13:45) Matematika (Peminatan)
+                            (13:45 – 14-30) Matematika (Peminatan)"),
+                        self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) Fisika
+                            (08:15 - 09:00) Fisika
+        
+                            (09:15 - 10:00) Kimia
+                            (10:00 – 10:45) Kimia
+        
+                            (10:45 - 11:30) Biologi 
+                            (11:30 - 12:15) Biologi
+        
+                            (13:00 – 13:45) Ekonomi 
+                            (13:45 – 14-30) Ekonomi"),
+                        self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) Geografi
+                            (08:15 - 09:00) Geografi
+        
+                            (09:15 - 10:00) Sosiologi
+                            (10:00 – 10:45) Sosiologi
+        
+                            (10:45 - 11:30) Bahasa dan Sastra Mandarin
+                            (11:30 - 12:15) Bahasa dan Sastra Mandarin
+        
+                            (13:00 – 13:45) Fisika
+                            (13:45 – 14-30) Fisika"),
+                        self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) Matematika
+                            (08:15 - 09:00) Matematika
+        
+                            (09:15 - 10:00) Seni Budaya
+                            (10:00 – 10:45) Seni Budaya"),
+                        self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) Bahasa Indonesia 
+                            (08:15 - 09:00) Bahasa Indonesia "),
+                        self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+                    ],
+                ],
+                "x-b" => [
+                    "kelas" => "X-B",
+                    "data" => [
+                        self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) Pendidikan Agama (Islam) dan Budi Pekerti 
+                            (08:15 - 09:00) Pendidikan Agama (Islam) dan Budi Pekerti 
+
+                            (09:15 - 10:00) Pendidikan Kewarganegaraan
+                            (10:00 – 10:45) Pendidikan Kewarganegaraan
+
+                            (10:45 - 11:30) Bahasa Inggris
+                            (11:30 - 12:15) Bahasa Inggris 
+
+                            (13:00 – 13:45) Matematika
+                            (13:45 – 14-30) Matematika"),
+                        self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) Sejarah
+                            (08:15 - 09:00) Sejarah
+
+                            (09:15 - 10:00) Pendidikan Olahraga dan Kesehatan
+                            (10:00 – 10:45) Pendidikan Olahraga dan Kesehatan
+
+                            (10:45 - 11:30) Prakarya dan Kewirausahaan
+                            (11:30 - 12:15) Prakarya dan Kewirausahaan
+
+                            (13:00 – 13:45) Matematika (Peminatan)
+                            (13:45 – 14-30) Matematika (Peminatan)"),
+                        self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) Fisika
+                            (08:15 - 09:00) Fisika
+
+                            (09:15 - 10:00) Kimia
+                            (10:00 – 10:45) Kimia
+
+                            (10:45 - 11:30) Biologi 
+                            (11:30 - 12:15) Biologi
+
+                            (13:00 – 13:45) Ekonomi 
+                            (13:45 – 14-30) Ekonomi"),
+                        self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) Geografi
+                            (08:15 - 09:00) Geografi
+
+                            (09:15 - 10:00) Sosiologi
+                            (10:00 – 10:45) Sosiologi
+
+                            (10:45 - 11:30) Bahasa dan Sastra Mandarin
+                            (11:30 - 12:15) Bahasa dan Sastra Mandarin
+
+                            (13:00 – 13:45) Fisika
+                            (13:45 – 14-30) Fisika"),
+                        self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) Matematika
+                            (08:15 - 09:00) Matematika
+
+                            (09:15 - 10:00) Seni Budaya
+                            (10:00 – 10:45) Seni Budaya"),
+                        self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) Bahasa Indonesia
+                            (08:15 - 09:00) Bahasa Indonesia "),
+                        self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+                    ],
+                ],
+                "xi-ips" => [
+                    "kelas" => "XI-IPS",
+                    "data" => [
+                        self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        (08:15 - 09:00) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        
+                        (09:15 - 10:00) Pendidikan Kewarganegaraan
+                        (10:00 – 10:45) Pendidikan Kewarganegaraan
+                        
+                        (10:45 - 11:30) Bahasa Inggris
+                        (11:30 - 12:15) Bahasa Inggris 
+                        
+                        (13:00 – 13:45) Matematika
+                        (13:45 – 14-30) Matematika
+                        "),
+                        self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) Sosiologi
+                        (08:15 - 09:00) Sosiologi
+                        
+                        (09:15 - 10:00) Pendidikan Olahraga dan Kesehatan
+                        (10:00 – 10:45) Pendidikan Olahraga dan Kesehatan
+                        
+                        (10:45 - 11:30) Prakarya dan Kewirausahaan
+                        (11:30 - 12:15) Prakarya dan Kewirausahaan
+                        
+                        (13:00 – 13:45) Ekonomi
+                        (13:45 – 14-30) Ekonomi
+                        "),
+                        self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) Antropologi
+                        (08:15 - 09:00) Antropologi
+                        
+                        (09:15 - 10:00) Geografi
+                        (10:00 – 10:45) Geografi
+                        
+                        (10:45 - 11:30) Bahasa Indonesia
+                        (11:30 - 12:15) Bahasa Indonesia
+                        
+                        (13:00 – 13:45) Sejarah
+                        (13:45 – 14-30) Sejarah
+                        "),
+                        self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) Bahasa Indonesia
+                        (08:15 - 09:00) Bahasa Indonesia
+                        
+                        (09:15 - 10:00) Ekonomi
+                        (10:00 – 10:45) Ekonomi
+                        
+                        (10:45 - 11:30) Bahasa dan Sastra Mandarin
+                        (11:30 - 12:15) Bahasa dan Sastra Mandarin
+                        
+                        (13:00 – 13:45) Geografi
+                        (13:45 – 14-30) Geografi
+                        "),
+                        self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) Matematika
+                        (08:15 - 09:00) Matematika
+                        
+                        (09:15 - 10:00) Seni Budaya
+                        (10:00 – 10:45) Seni Budaya
+                        "),
+                        self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) Sosiologi 
+                        (08:15 - 09:00) Sosiologi 
+                        "),
+                        self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+                    ],
+                ],
+                "xii-ipa" => [
+                    "kelas" => "XII-IPA",
+                    "data" => [
+                        self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        (08:15 - 09:00) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        
+                        (09:15 - 10:00) Pendidikan Kewarganegaraan
+                        (10:00 – 10:45) Pendidikan Kewarganegaraan
+                        
+                        (10:45 - 11:30) Bahasa Inggris
+                        (11:30 - 12:15) Bahasa Inggris 
+                        
+                        (13:00 – 13:45) Matematika
+                        (13:45 – 14-30) Matematika
+                        "),
+                        self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) Kimia
+                        (08:15 - 09:00) Kimia
+                        
+                        (09:15 - 10:00) Pendidikan Olahraga dan Kesehatan
+                        (10:00 – 10:45) Pendidikan Olahraga dan Kesehatan
+                        
+                        (10:45 - 11:30) Prakarya dan Kewirausahaan
+                        (11:30 - 12:15) Prakarya dan Kewirausahaan
+                        
+                        (13:00 – 13:45) Matematika (Peminatan)
+                        (13:45 – 14-30) Matematika (Peminatan)
+                        "),
+                        self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) Fisika
+                        (08:15 - 09:00) Fisika
+                        
+                        (09:15 - 10:00) Kimia
+                        (10:00 – 10:45) Kimia
+                        
+                        (10:45 - 11:30) Biologi 
+                        (11:30 - 12:15) Biologi
+                        
+                        (13:00 – 13:45) Sejarah
+                        (13:45 – 14-30) Sejarah
+                        "),
+                        self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) Bahasa Indonesia
+                        (08:15 - 09:00) Bahasa Indonesia
+                        
+                        (09:15 - 10:00) Matematika (Peminatan)
+                        (10:00 – 10:45) Matematika (Peminatan)
+                        
+                        (10:45 - 11:30) Bahasa dan Sastra Mandarin
+                        (11:30 - 12:15) Bahasa dan Sastra Mandarin
+                        
+                        (13:00 – 13:45) Fisika
+                        (13:45 – 14-30) Fisika
+                        "),
+                        self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) Matematika
+                        (08:15 - 09:00) Matematika
+                        
+                        (09:15 - 10:00) Seni Budaya
+                        (10:00 – 10:45) Seni Budaya
+                        "),
+                        self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) Biologi 
+                        (08:15 - 09:00) Biologi 
+                        "),
+                        self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+                    ],
+                ],
+                "xii-ips" => [
+                    "kelas" => "XII-IPS",
+                    "data" => [
+                        self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        (08:15 - 09:00) Pendidikan Agama (Islam) dan Budi Pekerti 
+                        
+                        (09:15 - 10:00) Pendidikan Kewarganegaraan
+                        (10:00 – 10:45) Pendidikan Kewarganegaraan
+                        
+                        (10:45 - 11:30) Bahasa Inggris
+                        (11:30 - 12:15) Bahasa Inggris 
+                        
+                        (13:00 – 13:45) Matematika
+                        (13:45 – 14-30) Matematika
+                        "),
+                        self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) Sosiologi
+                        (08:15 - 09:00) Sosiologi
+                        
+                        (09:15 - 10:00) Pendidikan Olahraga dan Kesehatan
+                        (10:00 – 10:45) Pendidikan Olahraga dan Kesehatan
+                        
+                        (10:45 - 11:30) Prakarya dan Kewirausahaan
+                        (11:30 - 12:15) Prakarya dan Kewirausahaan
+                        
+                        (13:00 – 13:45) Ekonomi
+                        (13:45 – 14-30) Ekonomi
+                        "),
+                        self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) Antropologi
+                        (08:15 - 09:00) Antropologi
+                        
+                        (09:15 - 10:00) Geografi
+                        (10:00 – 10:45) Geografi
+                        
+                        (10:45 - 11:30) Bahasa Indonesia
+                        (11:30 - 12:15) Bahasa Indonesia
+                        
+                        (13:00 – 13:45) Sejarah
+                        (13:45 – 14-30) Sejarah
+                        "),
+                        self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) Bahasa Indonesia
+                        (08:15 - 09:00) Bahasa Indonesia
+                        
+                        (09:15 - 10:00) Ekonomi
+                        (10:00 – 10:45) Ekonomi
+                        
+                        (10:45 - 11:30) Bahasa dan Sastra Mandarin
+                        (11:30 - 12:15) Bahasa dan Sastra Mandarin
+                        
+                        (13:00 – 13:45) Geografi
+                        (13:45 – 14-30) Geografi
+                        "),
+                        self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) Matematika
+                        (08:15 - 09:00) Matematika
+                        
+                        (09:15 - 10:00) Seni Budaya
+                        (10:00 – 10:45) Seni Budaya
+                        "),
+                        self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) Sosiologi 
+                        (08:15 - 09:00) Sosiologi 
+                        "),
+                        self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+                    ],
+                ],
+            ],
+
+            // Daftar Ekskul
+            'daftar-ekskul' => [
+                self::_getEkskul("Basket"),
+                self::_getEkskul("Sepak Bola"),
+                self::_getEkskul("Futsal"),
+                self::_getEkskul("Voli"),
+                self::_getEkskul("Pencak Silat"),
+                self::_getEkskul("Paskibra"),
+                self::_getEkskul("PMR"),
+                self::_getEkskul("Olimpiade Matematika"),
+                self::_getEkskul("Pramuka"),
+                self::_getEkskul("Olimpiade Kimia"),
+                self::_getEkskul("Olimpiade Fisika"),
+                self::_getEkskul("English Championship"),
+                self::_getEkskul("Komputer"),
             ]
         ];
     }
@@ -567,6 +915,19 @@ class DataSekolah {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea velit cumque laborum quod corrupti, sit ullam doloribus. Expedita, perferendis incidunt.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos alias iusto repudiandae debitis possimus cumque repellat officia modi similique.
         ';
+
+        $dummy_jadpel = [
+            "kelas" => "Kelas Lorem",
+            "data" => [
+                self::_getJadwalPelajaran("Senin", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Selasa", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Rabu", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Kamis", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Jumat", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Sabtu", "(07:30 - 08:15) lorem ipsum"),
+                self::_getJadwalPelajaran("Minggu", "Hari Libur"),
+            ],
+        ];
         
         return [
             // BERANDA
@@ -630,7 +991,60 @@ class DataSekolah {
                 $dummy_guruAndStaff,
                 $dummy_guruAndStaff,
                 $dummy_guruAndStaff,
+            ],
+            
+            // Mata Pelajaran
+            'mata-pelajaran' => [
+                self::_getMataPelajaran("lorem ipsum", 10, "Umum", "LI"),
+                self::_getMataPelajaran("lorem ipsum", 10, "Umum", "LI"),
+                self::_getMataPelajaran("lorem ipsum", 10, "Umum", "LI"),
+                self::_getMataPelajaran("lorem ipsum", 10, "Umum", "LI"),
+                self::_getMataPelajaran("lorem ipsum", 10, "Umum", "LI"),
+            ],
+
+            "jadwal-pelajaran" => [
+                "x-a" => $dummy_jadpel,
+                "x-b" => $dummy_jadpel,
+                "xi-ips" => $dummy_jadpel,
+                "xii-ipa" => $dummy_jadpel,
+                "xii-ips" => $dummy_jadpel,
+            ],
+
+            // Daftar Ekskul
+            'daftar-ekskul' => [
+                self::_getEkskul("lorem ipsum 1"),
+                self::_getEkskul("lorem ipsum 2"),
+                self::_getEkskul("lorem ipsum 3"),
+                self::_getEkskul("lorem ipsum 4"),
             ]
+        ];
+    }
+
+
+    private static function _getMataPelajaran($name, $tingkat, $kompetensi, $singkatan = "", $status = "aktif")
+    {
+        return [
+            "name" => $name,
+            "tingkat" => $tingkat,
+            "kompetensi" => $kompetensi,
+            "singkatan" => $singkatan,
+            "status" => $status,
+        ];
+    }
+
+    private static function _getJadwalPelajaran($hari, $jadwal)
+    {
+        return [
+            "hari" => $hari, 
+            "jadwal" => $jadwal, 
+        ];
+    }
+
+    private static function _getEkskul($name, $status = "aktif")
+    {
+        return [
+            "name" => $name,
+            "status" => $status
         ];
     }
 

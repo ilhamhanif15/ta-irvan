@@ -177,4 +177,36 @@ class WebController extends Controller
             "data" => $this->dataSekolah['guru-and-staff']
         ]);
     }
+
+    // MATA PELAJARAN
+    public function mataPelajaranView()
+    {
+        return view('akademik-mata-pelajaran', [
+            "data" => $this->dataSekolah['mata-pelajaran']
+        ]);
+    }
+
+    // JADWAL PELAJARAN
+    public function jadwalPelajaranView(Request $request)
+    {
+        $default_class = "x-a";
+        $kelas = $request->kelas ?? $default_class;
+        $dataKelas = $this->dataSekolah['jadwal-pelajaran'][$kelas] ?? ["data" => [], "kelas" => "-"];
+
+        return view('akademik-jadwal-pelajaran', [
+            "data" => $dataKelas
+        ]);
+    }
+
+    public function jadwalUjianView()
+    {
+        return view('akademik-jadwal-ujian');
+    }
+
+    public function daftarEkskulView()
+    {
+        return view('kegiatan-ekskul', [
+            "data" => $this->dataSekolah['daftar-ekskul']
+        ]);
+    }
 }

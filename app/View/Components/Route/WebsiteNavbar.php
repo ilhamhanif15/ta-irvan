@@ -39,10 +39,6 @@ class WebsiteNavbar extends Component
                         "name" => "Program",
                         "url" => route('profil.program'),
                     ],
-                    "Kurikulum" => [
-                        "name" => "Kurikulum Pendidikan",
-                        "url" => route('profil.kurikulum'),
-                    ],
                     "Sarana & Prasarana" => [
                         "name" => "Sarana & Prasarana",
                         "url" => route('profil.sarana-and-prasarana'),
@@ -59,10 +55,6 @@ class WebsiteNavbar extends Component
                         "name" => "Visi & Misi",
                         "url" => route('profil.visi-misi'),
                     ],
-                    "Prestasi" => [
-                        "name" => "Prestasi",
-                        "url" => route('profil.prestasi'),
-                    ],
                     "Guru & Staff" => [
                         "name" => "Guru & Staff",
                         "url" => route('profil.guru-and-staff'),
@@ -70,10 +62,46 @@ class WebsiteNavbar extends Component
                 ],
                 "isActive" => Route::is('profil.*'),
             ],
+            "AKADEMIK" => [
+                "name" => "Akademik",
+                "type" => "multi",
+                "group" => [
+                    "Matpel" => [
+                        "name" => "Mata Pelajaran",
+                        "url" => route('akademik.mata-pelajaran'),
+                    ],
+                    "Jadpel" => [
+                        "name" => "Jadwal Pelajaran",
+                        "url" => route('akademik.jadwal-pelajaran'),
+                    ],
+                    "Jaduj" => [
+                        "name" => "Jadwal Ujian",
+                        "url" => route('akademik.jadwal-ujian'),
+                    ],
+                    "Prestasi" => [
+                        "name" => "Prestasi",
+                        "url" => route('akademik.prestasi'),
+                    ],
+                    "Kurikulum" => [
+                        "name" => "Kurikulum Pendidikan",
+                        "url" => route('akademik.kurikulum'),
+                    ],
+                ],
+                "isActive" => Route::is('akademik.*'),
+            ],
             "KEGIATAN" => [
                 "name" => "Kegiatan",
-                "type" => "single",
-                "url" => route('kegiatan.list'),
+                "type" => "multi",
+                "group" => [
+                    "Kegev" => [
+                        "name" => "Kegiatan & Event",
+                        "url" => route('kegiatan.list'),
+                    ],
+                    "eksul" => [
+                        "name" => "Daftar Ekstrakurikuler",
+                        "url" => route('kegiatan.daftar-ekskul')
+                    ],
+                ],
                 "isActive" => Route::is('kegiatan.*'),
             ],
             "E-LEARNING" => [
